@@ -1,1 +1,3 @@
-![Preview]([https://drive.google.com/file/d/1Brqan34FbCQE6k49SS1N4-ZR3kHw6Ul1/view?usp=sharing](https://res.cloudinary.com/dmcl3k88d/image/upload/v1773177543/2026-03-11_02_41_58-Javascript_Backend__Sync_and_Async_ea7jec.png))
+# Webpage Preview
+
+![Preview](https://res.cloudinary.com/dmcl3k88d/image/upload/v1773177721/2026-03-11_02_51_22-Javascript_Backend__Sync_and_Async_wl96cv.png)
