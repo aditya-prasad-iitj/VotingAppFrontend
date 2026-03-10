@@ -1,0 +1,276 @@
+body {
+  font-family: 'IBM Plex Sans';
+  background: #0d0d0d;
+  color: #e8e8e8;
+  min-height: 100vh;
+  padding: 3rem 1rem;
+}
+
+.mono {
+  font-family: 'IBM Plex Mono';
+}
+
+.page {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.header-tag {
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  color: #555;
+  margin-bottom: 0.5rem;
+  font-family: 'IBM Plex Mono';
+}
+
+.title {
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: #f0f0f0;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+}
+
+.header-sub {
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 0.3rem;
+}
+
+.card {
+  background: #141414;
+  border: 1px solid #242424;
+  border-radius: 6px;
+  padding: 2rem;
+}
+
+
+.field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.label {
+  font-size: 0.68rem;
+  letter-spacing: 1.5px;
+  color: #555;
+  font-family: 'IBM Plex Mono';
+}
+
+
+.input {
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  background: #0d0d0d;
+  border: 1px solid #2a2a2a;
+  border-radius: 4px;
+  color: #e8e8e8;
+  font-family: 'IBM Plex Mono', 'Courier New';
+  font-size: 0.95rem;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #444;
+}
+
+.input::placeholder {
+  color: #3a3a3a;
+}
+
+.input-error {
+  border-color: #7a2020;
+}
+
+.error {
+  font-size: 0.78rem;
+  color: #c0392b;
+  font-family: 'IBM Plex Mono';
+}
+
+/* Divider */
+.divider {
+  height: 1px;
+  background: #1e1e1e;
+  margin: 1.5rem 0;
+}
+
+/* Candidates */
+.candidates {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.candidate {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.85rem 1rem;
+  background: #0d0d0d;
+  border: 1px solid #222;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+  color: #aaa;
+  width: 100%;
+}
+
+.candidate:hover {
+  border-color: #333;
+  color: #e8e8e8;
+}
+
+.candidate-selected {
+  border-color: #e8e8e8;
+  color: #e8e8e8;
+}
+
+.candidate-id {
+  font-size: 0.8rem;
+  color: #444;
+  width: 16px;
+  flex-shrink: 0;
+}
+
+.candidate-selected .candidate-id {
+  color: #888;
+}
+
+.candidate-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+}
+
+.candidate-name {
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: inherit;
+}
+
+.candidate-party {
+  font-size: 0.75rem;
+  color: #444;
+}
+
+.candidate-selected .candidate-party {
+  color: #666;
+}
+
+.tick {
+  font-size: 0.85rem;
+  color: #e8e8e8;
+  width: 16px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+
+.btn-vote {
+  width: 100%;
+  padding: 0.85rem;
+  background: #e8e8e8;
+  color: #0d0d0d;
+  border: none;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+.btn-vote:hover {
+  background: #ffffff;
+}
+
+.fine-print {
+  text-align: center;
+  font-size: 0.72rem;
+  color: #383838;
+  margin-top: 0.9rem;
+  font-family: 'IBM Plex Mono';
+}
+
+
+.confirm-header {
+  margin-bottom: 1.5rem;
+}
+
+.confirm-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #f0f0f0;
+  margin: 0.3rem 0 0.4rem;
+}
+
+.confirm-desc {
+  font-size: 0.82rem;
+  color: #555;
+}
+
+.confirm-table {
+  border: 1px solid #222;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.confirm-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #1e1e1e;
+  gap: 1rem;
+}
+
+.confirm-row:last-child {
+  border-bottom: none;
+}
+
+.confirm-label {
+  font-size: 0.65rem;
+  letter-spacing: 1.5px;
+  color: #444;
+  font-family: 'IBM Plex Mono';
+  flex-shrink: 0;
+}
+
+.confirm-value {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #ccc;
+  text-align: right;
+}
+
+.status-ok {
+  color: #4a9e6b;
+  font-family: 'IBM Plex Mono';
+  font-size: 0.78rem;
+}
+
+.btn-secondary {
+  width: 100%;
+  padding: 0.75rem;
+  background: transparent;
+  border: 1px solid #2a2a2a;
+  border-radius: 4px;
+  color: #666;
+  font-family: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  border-color: #444;
+  color: #aaa;
+}
